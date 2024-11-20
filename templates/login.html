@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/header2.css">
+    <script src="../javascript/singup.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <header>
+            <button class="header_btn">
+                <i class="material-icons header_i">menu</i>
+            </button>
+            <a href="index.html" onclick="coordsSet()">
+                <img class="header_img" src="../assets/imagens/logo.png" alt="">
+            </a>
+    
+            <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
+            <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
+    
+        </header>
+        <section>
+            <h1>Bem Vindo De Volta!</h1>
+            
+            
+            
+            <input type="email" name="" id="L-email" class="btn" min="12" max="45" placeholder="Email">
+            <br>
+         
+            <input type="password" name="" id="L-senha" class="btn" min="8" max="30" placeholder="Senha">
+            <i id="verSenha" class="fa fa-eye material-icons" aria-hidden="true">visibility</i>
+            <br>
+            <a href="../templates/cadastro.html">não tem Uma conta? Tente Cadastrar</a>
+            <br>
+            <input type="submit" id="btn2" onclick="clica()" class="btn2" value="Cadastrar">
+            
+        </section>
+    </main>
+</body>
+</html>

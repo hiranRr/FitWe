@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/norma.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body style="background-color: #1D1B20;">
+    <header>
+        <button class="header_btn">
+            <i class="material-icons header_i">menu</i>
+        </button>
+        <a href="index.html" onclick="coordsSet()">
+            <img class="header_img" src="../assets/imagens/logo.png" alt="">
+        </a>
+
+        <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
+        <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
+
+    </header>
+    <main>
+        <article id="ppp1" class="pag1">
+            <h2 class="pag1_h2">Boas Vindas a FitWe, Usuario!</h2>
+            <p class="pag1_p">FitWe é o site capaz de mudar sua vida,tanto seu estado mental quanto fisico,melhorando sua autoestima e 
+                relaçoes interpessoais,acompanhe abaixo algumas de nossas diversas funcionalidades.</p>
+            <video id="videoMaster" autoplay muted src="../assets/videos/FitVerse.mp4"></video>
+        </article>
+        <div>
+        </div>
+
+        <article id="ppp2" class="pag2">
+            <h2 class="pag2_txtPRINC">Mude sua vida para sempre!</h2>
+            <div class="mainP2">
+                <button id="avancar" class="defaultBTN" onclick="voltar()"></button>
+                <button id="voltar"  class="defaultBTN" onclick="avancar()" ></button>
+                <div class="textosP2">
+                    <h2 id="textoP2s" class="txtp2">Mude sua vida para sempre!</h2>
+                </div>
+                <img class="imagens_p2" id="imagens_p2"  src="../assets/imagens/pag2_01.jpg" alt="">
+            </div>
+        </article>
+        <article class="pag3">
+            
+        </article>
+    </main>
+    <footer></footer>
+    <script src="../javascript/pag2.js"></script>
+    <script src="../javascript/scroll.js"></script>
+</body>
+</html>

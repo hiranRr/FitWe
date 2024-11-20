@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap');
+
+
+
+.pag1_h2{
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 2em;
+    margin-left: 7%;
+    margin-top: 10%;
+    padding-top: 66px;
+    padding-bottom: 22px;
+    border-left: 2px solid white;
+    border-width: 3px;
+    padding-left: 22px;
+}
+
+.pag1_p{
+    margin-top: 8%;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-justify: auto;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#img_cube{
+    height: 344px;
+    width: 296px;
+    position: absolute;
+    margin-left: 60%;
+    top: 200px;
+    z-index: -1px;
+}
+
+
+.pag2{
+    margin-top: 500px;
+}
+
+.mainP2{
+    height: 500px;
+    width: 80%;
+    background-color: rgba(252, 252, 252, 0);
+    transform: translateX(10%)
+}
+
+.pag2_txtPRINC{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+}
+
+.imagens_p2{
+    height: 100%;
+    width: 72%;
+}
+
+.textosP2{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 100%;
+    transform: translateX(810px);
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+}
+
+.defaultBTN{
+    position: absolute;
+    border-style: none;
+}
+#voltar{
+    width: 50%;
+    height: 100%;
+    transform: translateX(575px);
+    background-color: rgba(102, 51, 153, 0);
+    z-index: 2;
+}
+
+#avancar{
+    z-index: 2;
+    background-color: rgba(240, 248, 255, 0);
+    width: 50%;
+    height: 100%;
+}
+
+.txtp2{
+    color: white;
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+
+
+.pag3{
+    margin-top: 300px;
+}
+
+#videoMaster{
+    top: 10px;
+    position: absolute;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 800px;
+    width: 1500px;
+    margin-bottom: 250px;
+    z-index: -1;
+    filter: brightness(80%)
+    
+}
+

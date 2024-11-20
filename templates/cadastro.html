@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../css/norma.css">
+    <link rel="stylesheet" href="../css/cad_Log.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <button class="header_btn">
+            <i class="material-icons header_i">menu</i>
+        </button>
+        <a href="index.html" onclick="coordsSet()">
+            <img class="header_img" src="../assets/imagens/logo.png" alt="">
+        </a>
+
+        <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
+        <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
+
+    </header>
+    <main>
+        <section>
+            <br>
+            <div id="sectionCadastro">
+            <h1>Inscreva-se no Futuro!</h1>
+
+            <br>
+            <br>
+            <br>
+
+
+            <div id="contornoNome">    
+                <input type="text" name="" id="Nome" class="btn" placeholder="Nome" min="6" max="45">
+            </div>    
+
+            <br>
+
+            <div id="contornoEmail">
+                <input type="email" name="" id="Email" class="btn" placeholder="Email" min="12" max="45">
+            </div>
+            
+            <br>
+            
+            <div id="contornoSenha">
+                <input type="password" name="" id="Senha" class="btn" placeholder="Senha" min="8" max="30">
+                <i id="verSenha" class="fa fa-eye material-icons" aria-hidden="true" onclick="mostrarSenha()">visibility</i>
+            </div>
+
+            <br>
+            
+            <div id="contornoSenha2">
+                <input type="password" name="" id="Senha2" class="btn" placeholder="Confirme a Senha" min="8" max="30">
+                <i id="verConfirmSenha" class="fa fa-eye material-icons" aria-hidden="true" onclick="mostrarSenha()">visibility</i>
+            </div>
+
+            <br>
+
+            <div id="contornoTelefone">
+                <input type="tel" name="" id="Telefone" class="btn" placeholder="Telefone" min="12" max="45">
+            </div>
+
+            
+            <a id="logar" href="../templates/login.html">Já tem uma conta? Tente logar</a> 
+
+            <br>
+            <br>
+                <input type="submit" id="bCadastrar" onclick="clica()" class="btn2" value="Cadastrar">
+            <hr id="linha1">  <label id="ou">OU</label> 
+            
+            <img id="google" src="../assets/imagens/google-logo.svg" alt="">
+
+            </div>
+
+        </section>
+    </main>
+    <script src="../javascript/singup.js"></script>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>

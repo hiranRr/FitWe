@@ -1,0 +1,13 @@
+.homeBar{
+    background-color: #1D1B20;
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 200px;
+    height: 900px;
+    border-right-color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    z-index: 4;
+
+}

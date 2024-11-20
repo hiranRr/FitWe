@@ -1,0 +1,83 @@
+body {
+    background-color: #1D1B20;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 110px;
+
+}
+h2 {
+    color: white;
+}
+h3 {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 220px;
+    
+}
+#btn2 {
+    border-radius: 60px;
+    background-color: #FFC300;
+    color: black;
+    height: 40px;
+    width: 400px;
+    margin-left: -70px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-color: transparent;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+#verSenha {
+    color: #FFC300;
+}
+
+section {
+    border-color: #FFC300;
+    border: 2px groove #FFC300;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width:500px ;
+    height: 400px;
+    margin-left: 470px;
+    margin-top: 80px;
+}
+input {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+
+}
+
+#L-email {
+    margin-left: 50px;
+    margin-top: 75px;
+    border-style: solid;
+
+}
+
+#L-senha {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-style: solid;
+}
