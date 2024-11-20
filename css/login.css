@@ -54,7 +54,7 @@ section {
     justify-content: center;
     display: block;
     width:500px ;
-    height: 400px;
+    height: 500px;
     margin-left: 470px;
     margin-top: 80px;
 }
@@ -80,4 +80,17 @@ input {
     margin-left: 50px;
     margin-top: 50px;
     border-style: solid;
+}
+#google {
+    height: 50px;
+    transform: translateY(50px);
+    margin-left: 60px;
+   
+    
+}
+
+#face {
+    height: 50px;
+    transform: translateY(50px);
+    margin-left: 60px;
 }

@@ -11,3 +11,18 @@
     z-index: 4;
 
 }
+
+.but{
+    width: 100%;
+    text-align: initial;
+    color: aliceblue;
+    background-color: transparent;
+    border-style: none;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.but i{
+    transform: scale(2);
+    transform: translateY(4px)
+}

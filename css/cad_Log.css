@@ -131,7 +131,21 @@ section h1 {
     position: absolute;
     z-index: 1;
     color: #ffffff;
-    text-decoration: underline #FFC300 3px;
+    text-decoration: underline #FFC300 2px;
     
+}
+
+#google {
+    height: 50px;
+    transform: translateY(50px);
+    margin-left: 60px;
+   
+    
+}
+
+#face {
+    height: 50px;
+    transform: translateY(50px);
+    margin-left: 60px;
 }
 

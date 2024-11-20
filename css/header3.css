@@ -108,3 +108,20 @@ header{
     transition: 1s;
     background-color: rgb(204, 212, 219);
 }
+
+#pesquisar {
+    margin-left: 430px;
+    width: 370px;
+    margin-top: 6px;
+    border-radius: 20px;
+    height: 30px;
+    background-color:rgb(21, 20, 24) ;
+    border: white solid 2px;
+}
+
+#pesquisar i {
+    color: white;
+    margin-right: 330px;
+    margin-bottom: 50px;
+}
+
