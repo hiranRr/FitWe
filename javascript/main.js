@@ -1,3 +1,38 @@
+//////////// homebar Função
+
+
+var objBar = document.getElementById("id_homeBar")
+var booll = true
+
+function a1(){
+    document.getElementById("id_homeBar").style.display = "inline"
+    booll = false
+}
+function a2(){
+    document.getElementById("id_homeBar").style.display = "none"
+    booll = true
+}
+
+
+
+
+function btnMenuBar(){
+    if(booll === true){
+        a1()
+    }
+
+    else if(booll === false){
+        a2()
+    }
+}
+
+
+
+
+//area pagina Index.html {local onde a gente clica nas imagem e muda :) }
+
+
+
 
 var img_1 = "../assets/imagens/pag2_01.jpg"
 var img_2 = "../assets/imagens/pag2_02.jpg"
@@ -59,3 +94,5 @@ function iniciar(){
     var ba = document.getElementById("videoMaster")
     ba.play()
 }
+
+///////////

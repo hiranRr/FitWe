@@ -1,5 +1,5 @@
 .homeBar{
-    display: none;
+    Display: none;
     background-color: #1D1B20;
     position: fixed;
     top: 10;
@@ -8,10 +8,9 @@
     height: 100%;
     border-right-color: aliceblue;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     z-index: 4;
     overflow-y: scroll;
-
 
 }
 

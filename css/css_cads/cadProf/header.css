@@ -1,0 +1,110 @@
+header{
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-color: #FFC300;
+    background-color: #1D1B20;
+    z-index: 20;
+}
+
+.header_btn{
+
+    margin-left: 1%;
+    margin-bottom: 22px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    background-color: transparent;
+    border-color: transparent;
+    transition: 1s;
+}
+
+.header_btn:hover{
+    cursor: pointer;
+    height: 45px;
+    transition: 1s;
+}
+
+.header_i{
+    color: aliceblue;
+    transform: scale(1.5);
+}
+
+.header_i:hover{
+    color: rgb(208, 216, 223);
+}
+.header_img{
+    height: 40px;
+    width: 42px;
+    margin-left: 10px;
+    float: left;
+    transition: 1s;
+}
+
+.header_img:hover{
+    rotate: 360deg;
+    transition: 1s;
+}
+
+.header_btn_entrar{
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 22px;
+    border-color: #FFC300;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    float: right;
+    transform: translateY(20%);
+    margin-right: 20px;
+    color: aliceblue;
+    font-family: Inter, sans-serif;
+    font-weight: 150;
+    transition: 1s;
+}
+
+.header_btn_entrar:hover{
+    cursor: pointer;
+    transform: translateY(15%);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    transition: 1s;
+    background-color: rgb(21, 20, 24);
+}
+
+.header_btn_cadastrar{
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 22px;
+    border-color: none;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    float: right;
+    transform: translateY(20%);
+    margin-right: 20px;
+    color: black;
+    font-family: Inter, sans-serif;
+    font-weight: 150;
+    transition: 1s;
+}
+
+.header_btn_cadastrar:hover{
+    cursor: pointer;
+    transform: translateY(15%);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    transition: 1s;
+    background-color: rgb(204, 212, 219);
+}

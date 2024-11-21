@@ -1,0 +1,178 @@
+body {
+    background-color: #1D1B20;
+}
+
+h1 {
+    color: #FFC300;
+    
+}
+
+section {
+    color: #FFC300;   
+    margin-left: 500px;
+    margin-top: 35px;
+    border-color: #FFC300;
+    border: 2px groove #FFC300;
+    width: 500px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    border-radius: 20px;
+    height: 730px;
+    border-style: solid;
+    
+}
+
+section h1 {
+    color: rgb(235, 235, 235);
+    margin-left: -15px;
+    font-size: 2em;
+}
+
+
+
+
+#logar {
+    color: rgb(220, 228, 105);
+    text-decoration: none;
+
+}
+
+#sectionCadastro {
+    margin-left: 120px;
+}
+
+#Nome {
+   border-radius: 10px;
+   width: 400px;
+   height: 30px; 
+   margin-left: -70px;
+   background-color: #1D1B20;
+   color: white;
+   border-style: solid;
+}
+
+
+
+#Email {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+ }
+
+ #Senha {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+ }
+
+ #Senha2 {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+ }
+
+ #Telefone {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+  
+ } 
+
+ #bCadastrar {
+    border-radius: 60px;
+    background-color: #FFC300;
+    color: black;
+    height: 40px;
+    width: 410px;
+    margin-left: -70px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-color: transparent;
+    border-style: solid;
+ }
+
+#logar {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 135px;
+    font-size: 0.8em;
+}
+
+#linha1 {
+    width: 500px;
+    margin-left: -120px;
+    margin-top: 27px;
+}
+
+
+
+#ou {
+    background-color: #1D1B20;
+    padding: 8px;
+    margin-left: 120px;
+    transform: translateY(-25px);
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    text-decoration: underline #FFC300 2px;
+    
+}
+
+#google {
+    height: 50px;
+    transform: translateY(20px);
+    margin-left: 60px;
+   
+    
+}
+
+#face {
+    height: 50px;
+    transform: translateY(20px);
+    margin-left: 60px;
+}
+
+
+#Aniversario {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+    margin-top: 20px;
+  
+ } 
+
+
+#CPF {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px; 
+    margin-left: -70px;
+    background-color: #1D1B20;
+    color: white;
+    border-style: solid;
+    margin-top: 20px;
+  
+ } 
+
+
