@@ -83,14 +83,30 @@ input {
 }
 #google {
     height: 50px;
-    transform: translateY(50px);
-    margin-left: 60px;
+    transform: translateY(20px);
+    margin-left: 150px;
    
     
 }
 
 #face {
     height: 50px;
-    transform: translateY(50px);
-    margin-left: 60px;
+    transform: translateY(20px);
+    margin-left: 100px;
+}
+
+#linha1 {
+    margin-top: 30px;
+}
+
+#ou {
+    color: #ffffff;
+    margin-left: 235px;
+    transform: translateY(-24px);
+    background-color: #1D1B20;
+    padding: 7px;
+    z-index: 2;
+    position: absolute;
+    text-decoration: underline #FFC300 2px;
+
 }

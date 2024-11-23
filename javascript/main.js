@@ -4,6 +4,7 @@
 var objBar = document.getElementById("id_homeBar")
 var booll = true
 
+
 function a1(){
     document.getElementById("id_homeBar").style.display = "inline"
     booll = false
@@ -28,6 +29,29 @@ function btnMenuBar(){
 
 
 
+var bools = true
+
+function a11(){
+    document.getElementById("1").style.display = "inline"
+    booll = false
+}
+function a22(){
+    document.getElementById("1").style.display = "none"
+    booll = true
+}
+
+
+
+function clicaPoST(){
+    if(bools === true){
+        a11()
+    }
+
+    else if(bools === false){
+        a22()
+    }
+}
+
 
 //area pagina Index.html {local onde a gente clica nas imagem e muda :) }
 
@@ -38,7 +62,6 @@ var img_1 = "../assets/imagens/pag2_01.jpg"
 var img_2 = "../assets/imagens/pag2_02.jpg"
 var img_3 = "../assets/imagens/pag2_03.jpg"
 var objt_m = document.getElementById("imagens_p2")
-var txt_Ed = document.getElementById("textoP2s").value
 var num = 1
 
 setInterval(function() {
