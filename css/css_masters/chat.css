@@ -1,0 +1,106 @@
+#chats {
+    background-color: #1D1B20;
+    height: 400px;
+    width: 350px;
+    transform: translate(0px,50px);
+    border-style: solid;
+    border-width: 1px;
+    border-right-color: #FFC300;
+    border-bottom-color: #FFC300;
+
+}
+
+#pesquisar2 {
+    transform: translate(-420px,0px);
+    margin-left: 430px;
+    width: 320px;
+    margin-top: 6px;
+    border-radius: 20px;
+    height: 30px;
+    background-color:rgb(21, 20, 24) ;
+    border: white solid 2px;
+}
+
+.lupa {
+    color: white;
+    transform: translate(-139px,0px);
+}
+
+
+.textA1{
+    display: inline-block;
+    background-color: #2d2a31;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    transform: translateX(210px);
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 120px;
+    height: 30px;
+}
+
+.ChatProf {
+    transform: translate(30px,10px);
+}
+
+.ChatAmigo {
+    transform: translate(50px,10px);
+}
+
+.ChatTodos {
+    transform: translate(30px,30px);
+
+}
+
+.ChatFavoritos {
+    transform: translate(50px,30px);
+
+
+}
+
+.ChatGrupos {
+    transform: translate(100px,40px);
+
+
+}
+
+.botao {
+    transform: translate(-115px,120px);
+    width: 60px;
+    height: 60px;
+    border: #FFC300 solid 1px;
+
+}
+
+.perfil {
+    transform: translate(70px,40px);
+    margin-left: 10px;
+    color: white;
+}
+
+.mensagem {
+    transform: translate(70px,30px);
+    margin-left: 10px;
+    color: #413f44;
+}
+
+.hora {
+    color: white;
+    transform: translate(300px,-45px);
+}
+
+#novogrupocontato {
+    background-color: #1D1B20;
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-right-color: #FFC300;
+
+}
+
+.addpessoa {
+    width: 20px;
+    height: 20px;
+}
