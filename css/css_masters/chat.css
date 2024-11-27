@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 #chats {
     background-color: #1D1B20;
     height: 400px;
@@ -41,26 +44,41 @@
 }
 
 .ChatProf {
-    transform: translate(30px,10px);
+    transform: translate(10px,10px);
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
 }
 
 .ChatAmigo {
-    transform: translate(50px,10px);
+    transform: translate(10px,10px);
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
 }
 
 .ChatTodos {
-    transform: translate(30px,30px);
+    transform: translate(10px,10px);
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
 
 }
 
 .ChatFavoritos {
-    transform: translate(50px,30px);
+    transform: translate(10px,10px);
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
 
 
 }
 
 .ChatGrupos {
-    transform: translate(100px,40px);
+    transform: translate(10px,10px);
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
 
 
 }
@@ -74,33 +92,187 @@
 }
 
 .perfil {
-    transform: translate(70px,40px);
+    transform: translate(60px,-5px);
     margin-left: 10px;
     color: white;
 }
 
 .mensagem {
-    transform: translate(70px,30px);
+    transform: translate(60px,-20px);
     margin-left: 10px;
     color: #413f44;
 }
 
 .hora {
     color: white;
-    transform: translate(300px,-45px);
+    transform: translate(300px,-85px);
 }
 
 #novogrupocontato {
     background-color: #1D1B20;
     width: 350px;
-    height: 350px;
+    height: 330px;
     border-style: solid;
     border-width: 1px;
-    border-right-color: #FFC300;
-
+    border-right-color: white;
+    border-top-color: white;
+    transform: translate(0px,10px);
 }
 
 .addpessoa {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
+    transform: translate(10px,10px);
+
+}
+
+.addpessoa2 {
+    width: 50px;
+    height: 50px;
+    transform: translate(10px,-30px);
+
+}
+
+.novocontato {
+    color: white;
+    transform: translate(70px,-50px);
+}
+
+.novocontato2 {
+    color: white;
+    transform: translate(70px,-90px);
+}
+
+
+#chat {
+    background-color: #1D1B20;
+    width: 1100px;
+    height: 1000px;
+    transform: translate(350px,-690px);
+    border-style: solid;
+    border-width: 1px;
+    border-left-color: white;
+    border-top-color: white;
+
+}
+
+#contato {
+    background-color: #1D1B20;
+    width: 1100px;
+    height: 100px;
+    transform: translate(350px,-685px);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: white;
+    border-color: white;
+}
+
+.pessoachat {
+    transform: translate(20px,15px);
+    width: 50px;
+    height: 50px;
+    
+}
+
+.perfilcontato {
+    color: white;
+    transform: translate(75px,-55px);
+}
+
+
+.mensagemcontato {
+    color: white;
+    transform: translate(75px,-70px);
+
+}
+
+.chamar {
+    transform: translate(830px,-150px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+
+.video {
+    transform: translate(850px,-150px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+
+.maisopcoes {
+    transform: translate(870px,-150px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.conversar {
+    transform: translate(-300px,545px);
+    margin-left: 430px;
+    width: 880px;
+    margin-top: 6px;
+    border-radius: 20px;
+    height: 35px;
+    background-color:rgb(21, 20, 24) ;
+    border: white solid 2px;
+    background-color: transparent;
+}
+
+.anexar {
+    transform: translate(70px,480px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.emoji {
+    transform: translate(-45px,480px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.mic {
+    transform: translate(915px,480px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.letrabarra {
+    color: white;
+    float: left;
+    transform: translate(5px,-12px);
+    opacity: 50%;
+}
+
+.pessoa {
+    transform: translate(10px,60px);
+    width: 50px;
+    height: 50px;
+
+}
+
+.ii {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
 }
