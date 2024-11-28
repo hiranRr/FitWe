@@ -7,26 +7,89 @@
 
     <link rel="stylesheet" href="../css/css_masters/norma.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    <link rel="stylesheet" href="../css/css_masters/header3.css">
+    <link rel="stylesheet" href="../css/css_masters/homeBar.css">
+    <link rel="stylesheet" href="../css/css_masters/indexMain.css">
+    <link rel="stylesheet" href="../css/css_masters/cssplano.css">
 </head>
 <body>
+    <header>
+        <button class="header_btn">
+            <i class="material-icons header_i" onclick="btnMenuBar()">menu</i>
+        </button>
+        <a href="index.html">
+            <img class="header_img" src="../assets/imagens/logo.png" alt="">
+        </a>
+        
+    
+        <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
+        <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
+    
+        <button id="pesquisar">
+            <i class="material-icons">search</i>
+        </button>
+    </header>
+    <aside id="id_homeBar" class="homeBar">
 
-    <h1>Acesse Nosso Universso</h1>
+        <button class="but but1" onclick="window.location.href='../templates/main.html'">
+            <i class="material-icons">cottage</i>
+            Home
+        </button>
+        <button class="but but1" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+            <i class="material-icons">account_circle</i>
+            me
+        </button>
+                <button class="but but1" >
+            <i class="material-icons">check</i>
+            Escorts
+        </button>
+
+        <hr>
+
+        <button class="but but1">
+            <i class="material-icons">auto_stories</i>
+            Teaching
+        </button>
+        <button class="but but1"  onclick="window.location.href='../templates/fitplay.html'">
+            <i class="material-icons">recent_actors</i>
+            FitPlay
+        </button>
+
+        <hr>
+
+        <button class="but but1">
+            <i class="material-icons">local_fire_department</i>
+            Trendings
+        </button>
+        <button class="but but1">
+            <i class="material-icons">travel_explore</i>
+            Recommended
+        </button>
+
+
+
+
+    </aside>
+
+
     <section id="bordaPlanos">
+        <h1 id="titulo">Acesse Nosso Universso</h1>
+
         <section id="contornoMensal">
             <div id="Mensal">
                 <h2>Plano Mensal</h2>
-                <div id="bMensal"> 
-                    <div id="contornoPrecoM">
-                         <p id="precoMensal">R$ 49.99</p> 
-                    </div>
-                    <p>5 impulsionamentos</p>
-                    <p>Acesso aos recursos basicos do instrutor</p>
-                    <p>Alguns anúncios</p>
-                    <p>5 downloads de publicações</p>
-                    <p>acessos a alunos da sua região</p>
-
+                <button class=" precoMensal">
+                    R$49,99
+                </button>
+                <div id="botaocertificado">
+                    <button class=" check">
+                        <i class="material-icons ii">check_circle</i>
+                    </button>
+                    <button class="text">
+                        Acesso aos recursos basico de instrutor
+                    </button>
                 </div>
+
             </div>
         </section>
 
@@ -61,8 +124,10 @@
                 </div>
             </div>  
         </section>      
-
+        <h1 id="expanda">Expanda seus horizontes com FitWe!</h1>
     </section>
     
 </body>
+<script src="../javascript/main.js"></script>
+
 </html>

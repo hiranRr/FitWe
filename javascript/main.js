@@ -1,5 +1,5 @@
 //////////// homebar Função
-
+console.log("busque comer cimento")
 
 var objBar = document.getElementById("id_homeBar")
 var booll = true
@@ -30,25 +30,18 @@ function btnMenuBar(){
 
 
 var bools = true
-
-function a11(){
-    document.getElementById("1").style.display = "inline"
-    booll = false
-}
-function a22(){
-    document.getElementById("1").style.display = "none"
-    booll = true
-}
-
-
-
 function clicaPoST(){
     if(bools === true){
-        a11()
+
+        document.getElementById("1").style.display = "none"
+        bools = false
+        console.log("oi")
     }
 
     else if(bools === false){
-        a22()
+        document.getElementById("1").style.display = "block"
+        bools = true
+        console.log("oii")
     }
 }
 
@@ -68,9 +61,6 @@ setInterval(function() {
     avancar()
 }, 4000);
 
-setInterval(function() {
-    iniciar()
-}, 1000);
 
 
 function situacao(){
@@ -113,9 +103,54 @@ function voltar(){
     situacao()
 }
 
-function iniciar(){
-    var ba = document.getElementById("videoMaster")
-    ba.play()
+///////////chat/////////
+
+
+
+
+var contagemBase = 1
+
+
+function clonar(){
+    var daten = new Date();
+    var plr1 = document.getElementById("base1")
+    var chat = document.getElementById("chatAreaI")
+
+
+    var msg = document.getElementById("valorinho").value
+    console.log(msg)
+
+
+    clonadoplr = plr1.cloneNode(true)
+
+    clonadoplr.id = "base_1_" + contagemBase++;
+
+    var colections = clonadoplr.children;
+
+
+    var texto = colections
+    
+
+
+    colections[0].innerHTML  = msg
+    colections[1].innerHTML = daten.getHours() + ":" + daten.getMinutes()
+
+
+    if(msg == "pterosauro"){
+        document.getElementById("pete").style.display = "block"
+        
+    }
+    if(msg == ""){
+        console.log("erro, refaça a mensagem")
+    }
+
+    else{
+        chat.appendChild(clonadoplr)
+        document.getElementById("valorinho").value = ""
+    }
+
 }
 
-///////////
+
+
+///////////chat/////////

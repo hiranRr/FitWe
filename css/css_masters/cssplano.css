@@ -1,0 +1,56 @@
+
+#titulo {
+    transform: translate(450px,-70px);
+    color: white;
+}
+
+#bordaPlanos {
+    height: 500px;
+    width: 1360px;
+    border:#FFC300 solid 1px ;
+    margin-left: 40px;
+    transform: translate(0px,120px);
+    border-radius: 20px;
+}
+
+#expanda {
+    color: white;
+    transform: translate(350px,-1100px);
+}
+
+#Mensal {
+    transform: translate(30px,-50px);
+    border:#FFC300 solid 1px ;
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+
+}
+
+#botaocertificado {
+    background-color: blue;
+    width: 250px;
+    height: 30px;
+    transform: translate(20px,20px);
+}
+
+.check {
+    width: 40px;
+    height: 35px;
+    transform: translate(5px,-5px);
+    background-color: #EFCE66;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    z-index: 1;
+
+}
+
+.text {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    transform: translate(-10px,0px);
+    z-index: 2;
+
+}

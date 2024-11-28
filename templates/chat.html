@@ -23,13 +23,26 @@
             <img class="header_img" src="../assets/imagens/logo.png" alt="">
         </a>
         
-    
-        <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
-        <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
-    
+        <a href="chat.html">
+            <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">mark_chat_unread</i>
+            </button>
+        </a>
+
+        <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">person</i>
+        </button>
+
+        <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">settings</i>
+        </button>
+
+
         <button id="pesquisar">
             <i class="material-icons">search</i>
         </button>
+        
+
     </header>
     <aside id="id_homeBar" class="homeBar">
 
@@ -119,18 +132,34 @@
         </button>
     </div>
     <div id="chat">
-        <button class="conversar" >
-            <p class="letrabarra">Digite aqui...</p>
-        </button>
-        <button class=" anexar">
-            <i class="material-icons">attach_file</i>
-        </button>
-        <button class=" emoji">
-            <i class="material-icons">mood</i>
-        </button>
-        <button class=" mic">
-            <i class="material-icons">mic</i>
-        </button>
+        <section  id="chatAreaI"  class="chatArea">
+
+            <div id="base1" class="msgPlr_1">
+                <h2 class="MSN1">test</h2>
+                <h6>11:00</h6>
+            </div>
+            <div id="base2" class="msgPlr_2">
+                <h2>test</h2>
+            </div>
+
+        </section>
+
+        <img  id="pete" src="../assets/imagens/petero.jpg" alt="">
+
+
+
+        <div class="Digitador">
+            <button id="envioID" class="envio" type="button" value="enviar" onclick="clonar2()">
+                <i class="material-icons itss">attach_file</i>
+            </button>
+            <input id="valorinho" class="escreva letrabarra" type="text"> 
+
+            <button id="envioID" class="envio" type="button" value="enviar" onclick="clonar()">
+                <i class="material-icons its">send</i>
+            </button>
+
+
+        </div>
     </div>
 
 </body>
