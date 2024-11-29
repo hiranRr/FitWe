@@ -5,52 +5,78 @@
 }
 
 #bordaPlanos {
-    height: 500px;
-    width: 1360px;
+    height: 654px;
+    width: 1236px;
     border:#FFC300 solid 1px ;
     margin-left: 40px;
-    transform: translate(0px,120px);
+    transform: translate(50px,120px);
     border-radius: 20px;
 }
 
 #expanda {
     color: white;
-    transform: translate(350px,-1100px);
+    transform: translate(350px,-1000px);
 }
 
 #Mensal {
     transform: translate(30px,-50px);
     border:#FFC300 solid 1px ;
-    width: 300px;
-    height: 420px;
+    width: 397px;
+    height: 598px;
     border-radius: 20px;
-
-}
-
-#botaocertificado {
-    background-color: blue;
-    width: 250px;
-    height: 30px;
-    transform: translate(20px,20px);
-}
-
-.check {
-    width: 40px;
-    height: 35px;
-    transform: translate(5px,-5px);
-    background-color: #EFCE66;
-    border-radius: 10px;
-    border: none;
     color: white;
-    z-index: 1;
-
 }
 
-.text {
-    width: 200px;
-    height: 35px;
-    font-size: 15px;
-    transform: translate(-10px,0px);
-    z-index: 2;
+#contornoPrecoM {
+    height: 57px;
+    width: 189px;
+    margin-left: 208px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 50px;
+    background-color: #FFC300;
+    color: black;
+    display: flex;           
+    justify-content: center; 
+    align-items: center; 
+}
 
+
+#contorno1m {
+    margin-left: 30px;
+    font-size: 1.5em;
+    border: #FFC300 solid 1px;
+    border-radius: 10px;
+    w
+}
+
+
+
+
+
+
+#contornoTrimestral{
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    height: 598px;
+    width: 397px;
+    transform: translate(440px,-548px);
+    color: white;
+}
+
+
+#contornoPrecoT {
+    height: 57px;
+    width: 189px;
+    margin-left: 208px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 50px;
+    background-color: #FFC300;
+    color: black;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
 }

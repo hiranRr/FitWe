@@ -108,7 +108,61 @@ function voltar(){
 
 
 
+
 var contagemBase = 1
+var contagemBase2 = 1
+
+
+function botMsg(){
+
+    var caixaDeTextos = [
+        "Gente, só eu que fico com fome demais depois do treino?",
+        "Hoje fiz um treino full body, agora tô morta, mas valeu a pena!",
+        "Aquele momento maravilhoso quando você percebe que está conseguindo fazer mais repetições do que antes",
+        "Acho que hoje não vou conseguir fazer cardio, o treino de musculação foi bem puxado",
+        "Nunca vou entender como é que eu amo e odeio a academia ao mesmo tempo",
+        "Eu e meu pós-treino estamos ficando mais próximos a cada dia",
+        "Aquele queima de gordura na barriga só aparece depois de muitos treinos e paciência",
+        "Alguém aí já tentou treino em circuito? Acho que vou experimentar semana que vem",
+        "O difícil é sair de casa, depois que você começa o treino tudo flui",
+        "Meu personal me fez aumentar o peso no agachamento, agora o corpo tá pedindo arrego",
+        "Acabei de fazer meu melhor tempo no cardio, será que vou manter?",
+        "Amo ver o progresso no espelho, mas o que me motiva mesmo é sentir a força no treino",
+        "Hoje fui de abdominal direto, não aguento mais olhar pra barriga, preciso dar uma atenção extra",
+        "Acho que vou fazer um treino de costas e bíceps, mas sempre fico em dúvida se foco mais na força ou na hipertrofia",
+        "Poderia viver de whey e carboidrato pós-treino, quem mais?",
+        "Finalmente consegui fazer 10 flexões seguidas, não é nada comparado ao pessoal, mas tô feliz",
+        "Aquela sensação maravilhosa de queimar calorias, mas ainda assim querer comer pizza no final do dia",
+        "Amanhã vou tentar fazer mais uma série de levantamento terra, quero ver se consigo fazer 80kg",
+        "Será que tô treinando errado, porque meu corpo não tá tão definido como eu gostaria?",
+        "Ontem fiz o treino de pernas e hoje estou pagando o preço, mas sei que vale a pena!"
+    ]
+    var random = Math.floor(Math.random() * caixaDeTextos.length);
+
+    var datent = new Date();
+    var plr2 = document.getElementById("base2")
+    var chat = document.getElementById("chatAreaI")
+
+
+    var msg = //pra fazer algo pra caixa de textow entrar
+
+
+    clonadoplr2 = plr2.cloneNode(true)
+
+    clonadoplr2.id = "base_1_" + contagemBase2++;
+
+    var colections2 = clonadoplr2.children;
+
+
+    colections2[0].innerHTML  = caixaDeTextos[random]
+    colections2[1].innerHTML = datent.getHours() + ":" + datent.getMinutes()
+
+    chat.appendChild(clonadoplr2)
+
+
+}
+
+
 
 
 function clonar(){
@@ -128,12 +182,11 @@ function clonar(){
     var colections = clonadoplr.children;
 
 
-    var texto = colections
-    
-
-
     colections[0].innerHTML  = msg
     colections[1].innerHTML = daten.getHours() + ":" + daten.getMinutes()
+
+
+
 
 
     if(msg == "pterosauro"){
@@ -147,9 +200,14 @@ function clonar(){
     else{
         chat.appendChild(clonadoplr)
         document.getElementById("valorinho").value = ""
+        botMsg()
+
     }
 
 }
+
+
+
 
 
 

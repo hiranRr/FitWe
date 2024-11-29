@@ -21,14 +21,28 @@
             <img class="header_img" src="../assets/imagens/logo.png" alt="">
         </a>
         
-    
-        <a href="../templates/selecCad.html"><button class="header_btn_cadastrar">Cadastre-se</button></a>
-        <a href="../templates/login.html"><button class="header_btn_entrar">Entrar</button></a>
-    
+        <a href="chat.html">
+            <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">mark_chat_unread</i>
+            </button>
+        </a>
+
+        <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">person</i>
+        </button>
+
+        <button class="header_btn simsim">
+            <i class="material-icons header_i" onclick="">settings</i>
+        </button>
+
+
         <button id="pesquisar">
             <i class="material-icons">search</i>
         </button>
+        
+
     </header>
+    
     <aside id="id_homeBar" class="homeBar">
 
         <button class="but but1" onclick="window.location.href='../templates/main.html'">
@@ -78,18 +92,18 @@
         <section id="contornoMensal">
             <div id="Mensal">
                 <h2>Plano Mensal</h2>
-                <button class=" precoMensal">
-                    R$49,99
-                </button>
-                <div id="botaocertificado">
-                    <button class=" check">
-                        <i class="material-icons ii">check_circle</i>
-                    </button>
-                    <button class="text">
-                        Acesso aos recursos basico de instrutor
-                    </button>
+                <div id="bmensal">
+                        <div id="contornoPrecoT">
+                            <p id="precoM">R$ 49.99</p> 
+                        </div>
+                    <div id="letrasM"></div>
+                        <div id="contorno1m"> <p>5 impulsionamentos</p> </div>
+                        <div id="contorno2m"> <p>Acesso aos recursos basicos do instrutor</p> </div>
+                        <div id="contorno3m"> <p>Alguns anúncios</p> </div>
+                        <div id="contorno4m"> <p>5 downloads de publicações</p> </div>
+                        <div id="contorno5m"> <p>acessos a alunos da sua região</p> </div>
+                    </div>     
                 </div>
-
             </div>
         </section>
 
@@ -100,11 +114,11 @@
                         <p id="precoT">R$ 129.99</p> 
                    </div>
                    <div id="equivalente"> <p>Equivalente a R$ 43.50 por mês</p> </div>
-                    <p>18 impulsionamentos</p>
-                    <p>Acesso aos recursos basicos do instrutor</p>
-                    <p>Sem anúncios</p>
-                    <p>20 downloads de publicações</p>
-                    <p>acessos a alunos da sua região</p>
+                    <div id="contorno1t"> <p>18 impulsionamentos</p> </div>
+                    <div id="contorno2t"> <p>Acesso aos recursos basicos do instrutor</p> </div>
+                    <div id="contorno3t"> <p>Sem anúncios</p> </div>
+                    <div id="contorno4t"> <p>20 downloads de publicações</p> </div>
+                    <div id="contorno5t"> <p>acessos a alunos da sua região</p> </div>
                 </div>
             </div>   
         </section>     
@@ -116,11 +130,11 @@
                     <p id="precoA">R$ 499.99</p> 
                </div>
                     <div id="economize"> <p>Economize R$ 100.00</p> </div>
-                    <p>18 impulsionamentos</p>
-                    <p>Acesso aos recursos basicos do instrutor</p>
-                    <p>Sem anúncios</p>
-                    <p>20 downloads de publicações</p>
-                    <p>acessos a alunos da sua região</p>
+                    <div id="contorno1a"> <p>70 impulsionamentos</p> </div>
+                    <div id="contorno2a"> <p>Acesso aos recursos basicos do instrutor</p> </div>
+                    <div id="contorno3a"> <p>Sem anúncios</p> </div>
+                    <div id="contorno4a"> <p>70 downloads de publicações</p> </div>
+                    <div id="contorno5a"> <p>acessos a alunos da sua região</p> </div>
                 </div>
             </div>  
         </section>      

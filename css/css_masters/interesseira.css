@@ -1,0 +1,89 @@
+body {
+    overflow: hidden;
+}
+
+#conteudo {
+    border: #FFC300 solid 1px;
+    width: 1190px;
+    height: 600px;
+    margin-left: 130px;
+    transform: translateY(120px);
+    border-radius: 20px;
+}
+
+.titulo {
+    color: white;
+    transform: translate(440px,20px);
+}
+
+.esporte {
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(60px,50px);
+}
+
+.pixina {
+    color: white;
+    transform: translate(30px,45px) scale(2);
+}
+
+.ixporte {
+    color: white;
+    transform: translate(80px,-35px);
+}
+
+.textofudido {
+    color: white;
+    transform: translate(90px,-50px);
+    width: 200px;
+    opacity: 50%;
+}
+
+.esporte2 {
+    transform: translate(0px,50px);
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(60px,50px);
+    margin-top: 20px;
+}
+
+.esporte3 {
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(60px,50px);
+    margin-top: 20px;
+}
+
+.esporte4 {
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(700px,-360px);
+
+}
+
+.esporte5 {
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(700px,-360px);
+    margin-top: 20px;
+}
+
+.esporte6 {
+    border: #FFC300 solid 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    transform: translate(700px,-360px);
+    margin-top: 20px;
+
+}

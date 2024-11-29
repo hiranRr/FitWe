@@ -111,7 +111,7 @@ body {
 #novogrupocontato {
     background-color: #1D1B20;
     width: 350px;
-    height: 330px;
+    height: 290px;
     border-style: solid;
     border-width: 1px;
     border-right-color: white;
@@ -168,21 +168,33 @@ body {
 }
 
 .pessoachat {
-    transform: translate(20px,15px);
-    width: 50px;
-    height: 50px;
+    transform: translate(20px,50px);
+    width: 40px;
+    height: 40px;
+    border-color: rgb(255, 255, 255);
+
     
+}
+.indi{
+
+
 }
 
 .perfilcontato {
-    color: white;
-    transform: translate(75px,-55px);
+    color: rgb(255, 255, 255);
+    transform: translate(45px,-50px);
+    font-size: 1em;
+    font-family: Inter;
+    font-weight: 500;
 }
 
 
 .mensagemcontato {
-    color: white;
-    transform: translate(75px,-70px);
+    color: rgb(255, 255, 255);
+    transform: translate(2px,-70px);
+    width: 200px;
+    font-family: Inter;
+    font-weight: 300;
 
 }
 
@@ -301,6 +313,35 @@ section{
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
 
+    height: max-content;
+    width: auto;
+
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 1px;
+
+    text-wrap: pretty;
+    color: antiquewhite;      
+}
+
+.msgPlr_2 h2{
+    font-family: Inter;
+    font-size: 1.4em;
+    font-weight: 400;
+
+    background-color: #4b4b4b;
+
+    float: left;
+    margin-left: 22px;
+    margin-top: 2px;
+    margin-right: 100%;
+
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+
     height: auto;
     width: auto;
 
@@ -328,18 +369,18 @@ section{
 }
 
 
-.msgPlr_2{
-    background-color: burlywood;
-    float: left;
-    margin-right: 100%;
-    border-top-right-radius: 22px;
-    border-bottom-left-radius: 22px;
-    border-bottom-right-radius: 22px;
-    height: auto;
-    width: auto;
-    font-size: 0.5em;
-    padding-left: 20px;
-    padding-right: 20px;
+.msgPlr_2 h6{
+    transform: translate(-1010px,-20px);
+    font-family: Inter;
+    font-size: 0.8em;
+    font-weight: 400;
+    float: right;
+    margin-left: 100%;
+    margin-right: 22px;
+    color: antiquewhite;     
+    margin-bottom: 1px;
+    margin-top: 1px;
+
 }
 
 
